@@ -1,0 +1,15 @@
+- description: New Ability
+  id: ec2daa16-2c75-46b6-8877-06fbb9d4ae84
+  name: My Test Ability
+  platforms:
+    linux:
+      sh:
+        cleanup: whoami
+        command: ifconfig
+        payloads:
+        - wifi.ps1
+        - wifi.sh
+  tactic: Discovery
+  technique:
+    attack_id: T1018
+    name: Remote System Discovery

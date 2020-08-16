@@ -1,0 +1,8 @@
+- description: New Ability
+  id: 48f75555-02a1-4ffb-9a84-6733bc4ea0a8
+  name: New Ability
+  platforms: {}
+  tactic: Random Attack
+  technique:
+    attack_id: T1018
+    name: Random Attack
