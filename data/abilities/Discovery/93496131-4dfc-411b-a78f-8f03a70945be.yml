@@ -1,0 +1,15 @@
+- description: New Ability
+  id: 93496131-4dfc-411b-a78f-8f03a70945be
+  name: My test ability
+  platforms:
+    linux:
+      sh:
+        cleanup: whoami
+        command: ifconfig
+        payloads:
+        - wifi.ps1
+        - wifi.sh
+  tactic: Discovery
+  technique:
+    attack_id: T1018
+    name: Remote System Discovery
