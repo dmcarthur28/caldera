@@ -3,11 +3,11 @@
 [![codecov](https://codecov.io/gh/mitre/caldera/branch/master/graph/badge.svg)](https://codecov.io/gh/mitre/caldera)
 [![Documentation Status](https://readthedocs.org/projects/caldera/badge/?version=stable)](http://caldera.readthedocs.io/?badge=stable)
 
-# CALDERA
+# CALDERA&trade;
 
 *Full documentation, training and use-cases can be found [here](https://caldera.readthedocs.io/en/latest/).*
 
-CALDERA is a cyber security framework designed to easily run autonomous breach-and-simulation exercises. It can also be used to run manual red-team engagements or automated incident response.
+CALDERA&trade; is a cyber security framework designed to easily run autonomous breach-and-simulation exercises. It can also be used to run manual red-team engagements or automated incident response.
 
 It is built on the [MITRE ATT&CK™ framework](https://attack.mitre.org/) and is an active research project at MITRE.
 
@@ -52,7 +52,7 @@ git clone https://github.com/mitre/caldera.git --recursive --branch x.x.x
 
 Next, install the PIP requirements:
 ```Bash
-sudo apt install -y python-pip3
+sudo apt install -y python3-pip
 pip3 install -r requirements.txt
 ```
 > Want to super-power your CALDERA server installation? Make sure GoLang (1.13+) is installed.
@@ -76,6 +76,6 @@ Refer to our [contributor documentation](CONTRIBUTING.md).
 
 ## Licensing
 
-In addition to CALDERA's open source capabilities, MITRE maintains several in-house CALDERA plugins that offer 
+In addition to CALDERA&trade;'s open source capabilities, MITRE maintains several in-house CALDERA&trade; plugins that offer 
 more advanced functionality. For more information, or to discuss licensing opportunities, please reach out to 
 caldera@mitre.org or directly to [MITRE's Technology Transfer Office](https://www.mitre.org/about/corporate-overview/contact-us#technologycontact).
